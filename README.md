@@ -1,6 +1,7 @@
 # NBA standings before all-star break and at the end of the season
 
 Backend: python, [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for data scrap from [basketball-reference](https://www.basketball-reference.com/)
+
 Frontend: [react](https://reactjs.org/), [Axios](https://github.com/axios/axios) for asynchronous calls  
 First project with react.
 
