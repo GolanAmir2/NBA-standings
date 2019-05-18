@@ -11,8 +11,6 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    //this.state = { currentMidSeason : this.state.midSeason.east, currentEndSeason : this.state.endSeason.east }
-    // This binding is necessary to make `this` work in the callback
     this.setTeamsWest = this.setTeamsWest.bind(this);
     this.setTeamsEast = this.setTeamsEast.bind(this);
     this.getStandings = this.getStandings.bind(this);
